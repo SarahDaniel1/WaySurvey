@@ -1,12 +1,12 @@
 # WaySurvey
 
-WaySurvey is a customizable interactive web map for visualizing and managing study sites, such as selected survey locations. The map allows researchers to easily visualize all study sites on an interactive map and easily navigate to them. To use WaySurvey, researchers upload geographic data containing predefined site boundaries together with associated site attributes. The tool then generates an interactive field map that enables researchers to visualize all study sites, navigate to individual sites, view its boundaries and a summary of the site's information.
+WaySurvey is a customizable interactive web map for visualizing and managing study sites, such as selected survey locations. The map allows researchers to easily visualize all study sites on a map and easily navigate to them. To use WaySurvey, researchers upload geographic data containing predefined site boundaries together with associated site attributes. The tool then generates an interactive field map that enables researchers to visualize all study sites, navigate to individual sites, view its boundaries and a summary of the site's information. An example of the final field map can be viewed [here](https://sarahdaniel1.github.io/Nairobi_survey_locations/). This map was used to help enumerators in Nairobi navigate sampled study sites and collect household survey data. The instructions below explain how to create a similar interactive map for your own research.
 
 ## Instructions
 
 ### 1. Upload GeoJSON file to your GitHub repository
 
-Your sampled locations should be imported as a GeoJSON file containing a geometry column that defines the boundaries of each sampled site, as well as columns with associated attributes (e.g., location name/location ID, address).
+Your sampled locations should be imported as a GeoJSON file containing a geometry column that defines the boundaries of each sampled site, as well as columns containing associated attributes (e.g., location name/location ID and address). Examples of sites include census enumeration areas (EAs), census blocks, villages, or any other geographic units within which you will be collecting data.
 
 ### 2. Navigate to the `R` folder and open `create_map.R`
 
