@@ -6,7 +6,7 @@ WaySurvey is a customizable interactive web map for visualizing and managing stu
 
 ### 1. Upload GeoJSON file to your GitHub repository
 
-Your sampled locations should be imported as a GeoJSON file containing a geometry column that defines the boundaries of each sampled site, as well as columns containing associated attributes (e.g., location name/location ID and address). Examples of sites include census enumeration areas (EAs), census blocks, villages, or any other geographic units within which you will be collecting data.
+Your sampled locations should be imported as a GeoJSON file containing a geometry column that defines the boundaries of each sampled site, as well as columns containing associated attributes (e.g., location name/location ID and address from which sampling will begin (i.e, Starting Sampling Point). Examples of sites include census enumeration areas (EAs) or census tracks, villages, or any other geographic units within which you will be collecting data.
 
 ### 2. Navigate to the `R` folder and open `create_map.R`
 
