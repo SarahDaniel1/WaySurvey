@@ -1,6 +1,6 @@
 # WaySurvey
 
-WaySurvey is a tool that creates an interactive web map for visualizing and managing sampled survey locations. The tool allows researchers to upload geographic data containing study areas to be sampled and generate an interactive field map that can be used for survey planning, fieldwork coordination, and documentation. With this tool, researchers can view all sampled areas using the location search dropdown, visualize survey sites, and click on individual locations to view their boundaries and a summary of relevant information for each sampled site. This includes the addresses of Starting Sampling Points (SSP), assigned enumerators, stratum, or other area attributes.
+WaySurvey is a customizable interactive web map for visualizing and managing study areas, such as sampled survey locations. Researchers can upload geographic data containing predefined study areas and generate an interactive field map for fieldwork coordination and documentation. The map allows researchers to view all sampled areas using the location search dropdown, visualize survey sites, and click on individual locations to display their boundaries and a summary of relevant information for each sampled site. This information can include the address of the Starting Sampling Point (SSP), assigned enumerator, stratum, or other study area attributes.
 
 ## Instructions
 
