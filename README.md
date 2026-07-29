@@ -17,19 +17,26 @@ Before running the script, update the **USER SETTINGS** section with information
 For example:
 
 ```r
-geojson_file <- "sample_locations.geojson"
+geojson_file <- "Your_GeoJSON_file.geojson"
 
+# Map starting location
 map_lat <- 0
 map_lon <- 0
 map_zoom <- 10
 
+# Column used to identify sampled locations
 name_variable <- "Name"
 
+# Variables displayed in popup
 popup_variables <- c(
   "Name",
-  "Starting Sampling Point Address"
+  # Add additional variables here:
+  # "Address",
+  # "Stratum"
 )
 ```
+
+
 4. Run the entire script
 
 After making these changes, run the entire R script. The script will generate an index.html file containing the map.
