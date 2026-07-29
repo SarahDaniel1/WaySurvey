@@ -28,11 +28,13 @@ map_zoom <- 10
 name_variable <- "Name"
 
 # Variables displayed in popup
+# If "Address" is included, it will automatically become a Google Maps hyperlink
 popup_variables <- c(
   "Name",
+  "Address"
   # Add additional variables here:
-  # "Address",
-  # "Stratum"
+  # "Stratum",
+  # "Enumerator"
 )
 ```
 
