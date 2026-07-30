@@ -1,6 +1,6 @@
 # WaySurvey
 
-WaySurvey is a customizable interactive web map for visualizing and managing study sites, such as selected survey locations. The map allows researchers to easily visualize all study sites on a map and easily navigate to them. To use WaySurvey, researchers upload geographic data containing predefined site boundaries together with associated site attributes. The tool then generates an interactive field map that enables researchers to visualize all study sites, navigate to individual sites, view its boundaries and a summary of the site's information. An example of the final field map can be viewed [here](https://sarahdaniel1.github.io/Nairobi_survey_locations/). This map was used to help enumerators in Nairobi navigate sampled study sites and collect household survey data. The instructions below explain how to create a similar interactive map for your own research.
+WaySurvey is a customizable interactive web map for visualizing and managing study sites, such as selected survey locations. The map allows researchers to visualize all study sites, click on individual sites to view their boundaries and associated information, and open the site's location directly in Google Maps for navigation. An example of the final field map can be viewed [here](https://sarahdaniel1.github.io/Nairobi_survey_locations/). This map was used to help enumerators in Nairobi navigate sampled study sites and collect household survey data. The instructions below explain how to create a similar map for your own research.
 
 ## Instructions
 
